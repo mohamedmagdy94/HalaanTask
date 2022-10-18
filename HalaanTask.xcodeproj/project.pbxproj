@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3F773853CB57FACBBBF7B2 /* Pods_HalaanTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE16DE186A9CFB9C9C67615 /* Pods_HalaanTaskTests.framework */; };
 		D9BAF9D528FEBA7B00FBF798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D428FEBA7B00FBF798 /* AppDelegate.swift */; };
 		D9BAF9D728FEBA7B00FBF798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D628FEBA7B00FBF798 /* SceneDelegate.swift */; };
 		D9BAF9D928FEBA7B00FBF798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D828FEBA7B00FBF798 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		D9BAF9EC28FEBA7D00FBF798 /* HalaanTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9EB28FEBA7D00FBF798 /* HalaanTaskTests.swift */; };
 		D9BAF9F628FEBA7D00FBF798 /* HalaanTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9F528FEBA7D00FBF798 /* HalaanTaskUITests.swift */; };
 		D9BAF9F828FEBA7D00FBF798 /* HalaanTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9F728FEBA7D00FBF798 /* HalaanTaskUITestsLaunchTests.swift */; };
+		E2D1434061BAFC5EF24BEE44 /* Pods_HalaanTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64B74F9D7B7A9DA80A0B101 /* Pods_HalaanTask.framework */; };
+		FB91C94AB28A5E40922E2039 /* Pods_HalaanTask_HalaanTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8ABD561528B0929E005CD5 /* Pods_HalaanTask_HalaanTaskUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3346F4CDB63E8859FB429339 /* Pods-HalaanTask-HalaanTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTask-HalaanTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-HalaanTask-HalaanTaskUITests/Pods-HalaanTask-HalaanTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5EE21D3195E72ED2ADBD92E1 /* Pods-HalaanTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-HalaanTaskTests/Pods-HalaanTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88883D5EDE48D2CEE0F10320 /* Pods-HalaanTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTask.debug.xcconfig"; path = "Target Support Files/Pods-HalaanTask/Pods-HalaanTask.debug.xcconfig"; sourceTree = "<group>"; };
+		8C8ABD561528B0929E005CD5 /* Pods_HalaanTask_HalaanTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTask_HalaanTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99ABA78200E3E105E655981B /* Pods-HalaanTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTaskTests.release.xcconfig"; path = "Target Support Files/Pods-HalaanTaskTests/Pods-HalaanTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFE16DE186A9CFB9C9C67615 /* Pods_HalaanTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A358FC4421A6EB337E1664 /* Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-HalaanTask-HalaanTaskUITests/Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D64B74F9D7B7A9DA80A0B101 /* Pods_HalaanTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BAF9D128FEBA7B00FBF798 /* HalaanTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalaanTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BAF9D428FEBA7B00FBF798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9BAF9D628FEBA7B00FBF798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		D9BAF9F128FEBA7D00FBF798 /* HalaanTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalaanTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BAF9F528FEBA7D00FBF798 /* HalaanTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaanTaskUITests.swift; sourceTree = "<group>"; };
 		D9BAF9F728FEBA7D00FBF798 /* HalaanTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaanTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAC5F1717439463459D735CD /* Pods-HalaanTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTask.release.xcconfig"; path = "Target Support Files/Pods-HalaanTask/Pods-HalaanTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D1434061BAFC5EF24BEE44 /* Pods_HalaanTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3F773853CB57FACBBBF7B2 /* Pods_HalaanTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB91C94AB28A5E40922E2039 /* Pods_HalaanTask_HalaanTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0F1AC7D5AC79B56E80BEB1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D64B74F9D7B7A9DA80A0B101 /* Pods_HalaanTask.framework */,
+				8C8ABD561528B0929E005CD5 /* Pods_HalaanTask_HalaanTaskUITests.framework */,
+				AFE16DE186A9CFB9C9C67615 /* Pods_HalaanTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9BAF9C828FEBA7B00FBF798 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				D9BAF9EA28FEBA7D00FBF798 /* HalaanTaskTests */,
 				D9BAF9F428FEBA7D00FBF798 /* HalaanTaskUITests */,
 				D9BAF9D228FEBA7B00FBF798 /* Products */,
+				E87824C95A79EA3394F4B549 /* Pods */,
+				D0F1AC7D5AC79B56E80BEB1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,20 @@
 			path = HalaanTaskUITests;
 			sourceTree = "<group>";
 		};
+		E87824C95A79EA3394F4B549 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88883D5EDE48D2CEE0F10320 /* Pods-HalaanTask.debug.xcconfig */,
+				EAC5F1717439463459D735CD /* Pods-HalaanTask.release.xcconfig */,
+				B7A358FC4421A6EB337E1664 /* Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig */,
+				3346F4CDB63E8859FB429339 /* Pods-HalaanTask-HalaanTaskUITests.release.xcconfig */,
+				5EE21D3195E72ED2ADBD92E1 /* Pods-HalaanTaskTests.debug.xcconfig */,
+				99ABA78200E3E105E655981B /* Pods-HalaanTaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9BAF9FB28FEBA7D00FBF798 /* Build configuration list for PBXNativeTarget "HalaanTask" */;
 			buildPhases = (
+				03E4C14E001F0C226A1FDDDE /* [CP] Check Pods Manifest.lock */,
 				D9BAF9CD28FEBA7B00FBF798 /* Sources */,
 				D9BAF9CE28FEBA7B00FBF798 /* Frameworks */,
 				D9BAF9CF28FEBA7B00FBF798 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9BAF9FE28FEBA7D00FBF798 /* Build configuration list for PBXNativeTarget "HalaanTaskTests" */;
 			buildPhases = (
+				C51CD5BD2B556F7D19DA5B46 /* [CP] Check Pods Manifest.lock */,
 				D9BAF9E328FEBA7D00FBF798 /* Sources */,
 				D9BAF9E428FEBA7D00FBF798 /* Frameworks */,
 				D9BAF9E528FEBA7D00FBF798 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9BAFA0128FEBA7D00FBF798 /* Build configuration list for PBXNativeTarget "HalaanTaskUITests" */;
 			buildPhases = (
+				2269FFC85C243BDA15A62098 /* [CP] Check Pods Manifest.lock */,
 				D9BAF9ED28FEBA7D00FBF798 /* Sources */,
 				D9BAF9EE28FEBA7D00FBF798 /* Frameworks */,
 				D9BAF9EF28FEBA7D00FBF798 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E4C14E001F0C226A1FDDDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalaanTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2269FFC85C243BDA15A62098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalaanTask-HalaanTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C51CD5BD2B556F7D19DA5B46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalaanTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9BAF9CD28FEBA7B00FBF798 /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		D9BAF9FC28FEBA7D00FBF798 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88883D5EDE48D2CEE0F10320 /* Pods-HalaanTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +573,7 @@
 		};
 		D9BAF9FD28FEBA7D00FBF798 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC5F1717439463459D735CD /* Pods-HalaanTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +601,7 @@
 		};
 		D9BAF9FF28FEBA7D00FBF798 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE21D3195E72ED2ADBD92E1 /* Pods-HalaanTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +621,7 @@
 		};
 		D9BAFA0028FEBA7D00FBF798 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99ABA78200E3E105E655981B /* Pods-HalaanTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +641,7 @@
 		};
 		D9BAFA0228FEBA7D00FBF798 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A358FC4421A6EB337E1664 /* Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +659,7 @@
 		};
 		D9BAFA0328FEBA7D00FBF798 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3346F4CDB63E8859FB429339 /* Pods-HalaanTask-HalaanTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
