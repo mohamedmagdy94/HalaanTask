@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0F3F773853CB57FACBBBF7B2 /* Pods_HalaanTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE16DE186A9CFB9C9C67615 /* Pods_HalaanTaskTests.framework */; };
+		D9B16D6429008847007E521A /* TweetCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16D6229008847007E521A /* TweetCounterViewController.swift */; };
+		D9B16D6529008847007E521A /* TweetCounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B16D6329008847007E521A /* TweetCounterViewController.xib */; };
+		D9B16D6929009043007E521A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16D6829009043007E521A /* UIView.swift */; };
 		D9BAF9D528FEBA7B00FBF798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D428FEBA7B00FBF798 /* AppDelegate.swift */; };
 		D9BAF9D728FEBA7B00FBF798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D628FEBA7B00FBF798 /* SceneDelegate.swift */; };
 		D9BAF9D928FEBA7B00FBF798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D828FEBA7B00FBF798 /* ViewController.swift */; };
@@ -47,6 +50,9 @@
 		AFE16DE186A9CFB9C9C67615 /* Pods_HalaanTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A358FC4421A6EB337E1664 /* Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-HalaanTask-HalaanTaskUITests/Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D64B74F9D7B7A9DA80A0B101 /* Pods_HalaanTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B16D6229008847007E521A /* TweetCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCounterViewController.swift; sourceTree = "<group>"; };
+		D9B16D6329008847007E521A /* TweetCounterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetCounterViewController.xib; sourceTree = "<group>"; };
+		D9B16D6829009043007E521A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		D9BAF9D128FEBA7B00FBF798 /* HalaanTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalaanTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BAF9D428FEBA7B00FBF798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9BAF9D628FEBA7B00FBF798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +107,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D9B16D5F29008816007E521A /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16D6029008823007E521A /* TweetCounter */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		D9B16D6029008823007E521A /* TweetCounter */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16D6129008830007E521A /* View */,
+			);
+			path = TweetCounter;
+			sourceTree = "<group>";
+		};
+		D9B16D6129008830007E521A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16D6229008847007E521A /* TweetCounterViewController.swift */,
+				D9B16D6329008847007E521A /* TweetCounterViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9B16D662900902F007E521A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16D6729009036007E521A /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D9B16D6729009036007E521A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16D6829009043007E521A /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		D9BAF9C828FEBA7B00FBF798 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +173,8 @@
 		D9BAF9D328FEBA7B00FBF798 /* HalaanTask */ = {
 			isa = PBXGroup;
 			children = (
+				D9B16D662900902F007E521A /* Common */,
+				D9B16D5F29008816007E521A /* feature */,
 				D9BAF9D428FEBA7B00FBF798 /* AppDelegate.swift */,
 				D9BAF9D628FEBA7B00FBF798 /* SceneDelegate.swift */,
 				D9BAF9D828FEBA7B00FBF798 /* ViewController.swift */,
@@ -164,7 +213,6 @@
 				5EE21D3195E72ED2ADBD92E1 /* Pods-HalaanTaskTests.debug.xcconfig */,
 				99ABA78200E3E105E655981B /* Pods-HalaanTaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,6 +326,7 @@
 				D9BAF9E128FEBA7D00FBF798 /* LaunchScreen.storyboard in Resources */,
 				D9BAF9DE28FEBA7D00FBF798 /* Assets.xcassets in Resources */,
 				D9BAF9DC28FEBA7B00FBF798 /* Main.storyboard in Resources */,
+				D9B16D6529008847007E521A /* TweetCounterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,8 +420,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B16D6929009043007E521A /* UIView.swift in Sources */,
 				D9BAF9D928FEBA7B00FBF798 /* ViewController.swift in Sources */,
 				D9BAF9D528FEBA7B00FBF798 /* AppDelegate.swift in Sources */,
+				D9B16D6429008847007E521A /* TweetCounterViewController.swift in Sources */,
 				D9BAF9D728FEBA7B00FBF798 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
