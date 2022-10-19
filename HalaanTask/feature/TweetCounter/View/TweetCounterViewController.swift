@@ -31,7 +31,7 @@ class TweetCounterViewController: UIViewController,Loadable,ErrorShowable,Succes
         presenter?.postTweet()
     }
     
-    func setPresenter(with presenter: TweetCounterPresenterInputContract){
+    func setDependencies(presenter: TweetCounterPresenterInputContract){
         self.presenter = presenter
     }
 }
