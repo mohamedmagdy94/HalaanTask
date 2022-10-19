@@ -48,7 +48,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="z0K-hx-p3b" secondAttribute="bottom" constant="6" id="qT3-n2-ln7"/>
                                             </constraints>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kz4-PL-1wT" userLabel="valueView">
+                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kz4-PL-1wT" userLabel="valueView">
                                             <rect key="frame" x="0.0" y="240" width="237.66666666666666" height="130"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/280" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJZ-8h-WaA" userLabel="characterTypedTitle">
@@ -58,12 +58,17 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="vJZ-8h-WaA" firstAttribute="centerX" secondItem="kz4-PL-1wT" secondAttribute="centerX" id="4ab-61-ZW5"/>
                                                 <constraint firstItem="vJZ-8h-WaA" firstAttribute="top" secondItem="kz4-PL-1wT" secondAttribute="top" constant="16" id="VgR-LK-b6q"/>
                                                 <constraint firstAttribute="bottom" secondItem="vJZ-8h-WaA" secondAttribute="bottom" constant="16" id="ohs-2N-Bec"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="12"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </view>
                                     </subviews>
                                 </stackView>
@@ -110,7 +115,7 @@
                                                 <constraint firstItem="GDr-t8-I0Z" firstAttribute="top" secondItem="1Hu-tw-s7v" secondAttribute="top" constant="6" id="oK5-kP-iCm"/>
                                             </constraints>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOi-bj-w5c" userLabel="valueView">
+                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOi-bj-w5c" userLabel="valueView">
                                             <rect key="frame" x="0.0" y="240" width="237.33333333333334" height="130"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="280" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chD-cp-Cci" userLabel="characterRemainingValue">
@@ -120,12 +125,17 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="chD-cp-Cci" firstAttribute="top" secondItem="JOi-bj-w5c" secondAttribute="top" constant="16" id="1MG-cK-pkH"/>
                                                 <constraint firstAttribute="bottom" secondItem="chD-cp-Cci" secondAttribute="bottom" constant="16" id="8WV-jw-EbY"/>
                                                 <constraint firstItem="chD-cp-Cci" firstAttribute="centerX" secondItem="JOi-bj-w5c" secondAttribute="centerX" id="ImB-rb-gfF"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="12"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </view>
                                     </subviews>
                                 </stackView>
