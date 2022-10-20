@@ -5,7 +5,7 @@
 //  Created by Mohamed on 20/10/2022.
 //
 
-import Foundation
+import UIKit
 
 class TweetCounterConfigurator: TweetCounterConfiguratorContract{
     
@@ -15,7 +15,7 @@ class TweetCounterConfigurator: TweetCounterConfiguratorContract{
         self.view = view
     }
     
-    func configure() -> TweetCounterViewController {
+    func configure() -> UIViewController {
         let interactor = createInteractor()
         let presenter = createPresenter(with: interactor)
         interactor.setDependencies(with: presenter)

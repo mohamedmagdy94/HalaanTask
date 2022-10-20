@@ -8,5 +8,5 @@
 import UIKit
 
 protocol TweetCounterConfiguratorContract {
-    func configure()->TweetCounterViewController
+    func configure()->UIViewController
 }
