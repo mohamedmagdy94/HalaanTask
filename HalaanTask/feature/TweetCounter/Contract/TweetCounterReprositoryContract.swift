@@ -9,10 +9,10 @@ import Foundation
 
 typealias TweetPostCallback = (Result<Void,TweetCounterError>)->()
 
-protocol TweetCounterReprositoryContract{
+protocol TweetCounterReprositoryContract: AnyObject{
     func create(tweet: String,onFinish: @escaping TweetPostCallback)
 }
 
-protocol TweetPostServiceContract{
+protocol TweetPostServiceContract: AnyObject{
     func post(tweet: String,onFinish: @escaping TweetPostCallback)
 }

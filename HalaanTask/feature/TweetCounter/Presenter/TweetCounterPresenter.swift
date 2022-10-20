@@ -12,7 +12,7 @@ class TweetCounterPresenter: TweetCounterPresenterContract{
     
     private var tweet: String
     private var interactor: TweetCounterInteractorContract?
-    private var view: TweetCounterViewContract?
+    weak private var view: TweetCounterViewContract?
     
     init(interactor: TweetCounterInteractorContract?,view: TweetCounterViewContract?) {
         self.tweet = ""

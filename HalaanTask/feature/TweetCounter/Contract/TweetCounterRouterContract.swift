@@ -8,5 +8,5 @@
 import UIKit
 
 protocol TweetCounterRouterContract{
-    func getScreen()->UIViewController
+    static func getScreen() -> UIViewController
 }

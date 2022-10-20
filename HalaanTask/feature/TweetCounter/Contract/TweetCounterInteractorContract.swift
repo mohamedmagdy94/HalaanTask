@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol TweetCounterInteractorContract{
+protocol TweetCounterInteractorContract: AnyObject{
     func postTweet(with tweet: String)
     func countCharsOnTweet(with tweet: String)->TweetCountingResult
     func setDependencies(with presenter: TweetCounterPresenterOutputContract)

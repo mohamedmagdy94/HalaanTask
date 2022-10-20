@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol TweetCounterViewContract{
+protocol TweetCounterViewContract: AnyObject{
     func setViewData(with data: TweetCounterViewData)
     func showError(with message: String)
     func showSuccess()

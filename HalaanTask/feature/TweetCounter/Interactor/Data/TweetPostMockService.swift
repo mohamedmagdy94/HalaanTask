@@ -13,7 +13,7 @@ enum TweetPostMockResult{
     case success
 }
 
-struct TweetPostMockService: TweetPostServiceContract{
+class TweetPostMockService: TweetPostServiceContract{
     
     private var targetResult: TweetPostMockResult
     
@@ -22,13 +22,16 @@ struct TweetPostMockService: TweetPostServiceContract{
     }
     
     func post(tweet: String, onFinish: @escaping TweetPostCallback) {
-        switch targetResult {
-        case .serverError:
-            onFinish(.failure(.serverError))
-        case .validationError:
-            onFinish(.failure(.validationError))
-        case .success:
-            onFinish(.success(()))
+        DispatchQueue.global(qos: .userInteractive).asyncAfter(deadline: .now() + 2.0) {[weak self] in
+            guard let self = self else{ return }
+            switch self.targetResult {
+            case .serverError:
+                onFinish(.failure(.serverError))
+            case .validationError:
+                onFinish(.failure(.validationError))
+            case .success:
+                onFinish(.success(()))
+            }
         }
     }
     
