@@ -30,10 +30,6 @@ class TweetCounterViewController: UIViewController,Loadable,ErrorShowable,Succes
     @IBAction func onPostTweetTapped(_ sender: Any) {
         presenter?.postTweet()
     }
-    
-    func setDependencies(presenter: TweetCounterPresenterInputContract){
-        self.presenter = presenter
-    }
 }
 
 extension TweetCounterViewController: UITextViewDelegate{
@@ -65,5 +61,9 @@ extension TweetCounterViewController: TweetCounterViewContract{
     
     func hideLoading() {
         hideLoadingIndicator()
+    }
+    
+    func setDependencies(presenter: TweetCounterPresenterInputContract){
+        self.presenter = presenter
     }
 }

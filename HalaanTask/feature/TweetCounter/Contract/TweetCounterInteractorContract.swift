@@ -10,4 +10,5 @@ import Foundation
 protocol TweetCounterInteractorContract{
     func postTweet(with tweet: String)
     func countCharsOnTweet(with tweet: String)->TweetCountingResult
+    func setDependencies(with presenter: TweetCounterPresenterOutputContract)
 }

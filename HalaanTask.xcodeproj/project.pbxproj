@@ -20,6 +20,11 @@
 		D9B16D7E2900A159007E521A /* TweetCounterRouterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16D7D2900A159007E521A /* TweetCounterRouterContract.swift */; };
 		D9B16D802900A7AA007E521A /* TweetCounterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16D7F2900A7AA007E521A /* TweetCounterPresenter.swift */; };
 		D9B16D822900A94D007E521A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16D812900A94D007E521A /* UIViewController.swift */; };
+		D9B16D8A2900AFFC007E521A /* TweetCounterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16D892900AFFC007E521A /* TweetCounterInteractor.swift */; };
+		D9B16D8C2900B037007E521A /* TweetCountingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16D8B2900B037007E521A /* TweetCountingService.swift */; };
+		D9B16D8E2900B141007E521A /* TweetCounterReprositoryContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B16D8D2900B141007E521A /* TweetCounterReprositoryContract.swift */; };
+		D9B4B3C729013E8800CEE98B /* TweetCounterReprository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B3C629013E8800CEE98B /* TweetCounterReprository.swift */; };
+		D9B4B3CA29013FB600CEE98B /* TweetPostMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B3C929013FB600CEE98B /* TweetPostMockService.swift */; };
 		D9BAF9D528FEBA7B00FBF798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D428FEBA7B00FBF798 /* AppDelegate.swift */; };
 		D9BAF9D728FEBA7B00FBF798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D628FEBA7B00FBF798 /* SceneDelegate.swift */; };
 		D9BAF9D928FEBA7B00FBF798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D828FEBA7B00FBF798 /* ViewController.swift */; };
@@ -71,6 +76,11 @@
 		D9B16D7D2900A159007E521A /* TweetCounterRouterContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCounterRouterContract.swift; sourceTree = "<group>"; };
 		D9B16D7F2900A7AA007E521A /* TweetCounterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCounterPresenter.swift; sourceTree = "<group>"; };
 		D9B16D812900A94D007E521A /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		D9B16D892900AFFC007E521A /* TweetCounterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCounterInteractor.swift; sourceTree = "<group>"; };
+		D9B16D8B2900B037007E521A /* TweetCountingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCountingService.swift; sourceTree = "<group>"; };
+		D9B16D8D2900B141007E521A /* TweetCounterReprositoryContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCounterReprositoryContract.swift; sourceTree = "<group>"; };
+		D9B4B3C629013E8800CEE98B /* TweetCounterReprository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCounterReprository.swift; sourceTree = "<group>"; };
+		D9B4B3C929013FB600CEE98B /* TweetPostMockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetPostMockService.swift; sourceTree = "<group>"; };
 		D9BAF9D128FEBA7B00FBF798 /* HalaanTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalaanTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BAF9D428FEBA7B00FBF798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9BAF9D628FEBA7B00FBF798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +146,7 @@
 		D9B16D6029008823007E521A /* TweetCounter */ = {
 			isa = PBXGroup;
 			children = (
+				D9B16D882900AFE9007E521A /* Interactor */,
 				D9B16D7229009AE4007E521A /* Entity */,
 				D9B16D6F2900969D007E521A /* Contract */,
 				D9B16D6E2900968A007E521A /* Presenter */,
@@ -185,6 +196,7 @@
 				D9B16D7529009B54007E521A /* TweetCounterViewContract.swift */,
 				D9B16D792900A0C5007E521A /* TweetCounterInteractorContract.swift */,
 				D9B16D7D2900A159007E521A /* TweetCounterRouterContract.swift */,
+				D9B16D8D2900B141007E521A /* TweetCounterReprositoryContract.swift */,
 			);
 			path = Contract;
 			sourceTree = "<group>";
@@ -197,6 +209,25 @@
 				D9B16D7B2900A11D007E521A /* TweetCountingResult.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		D9B16D882900AFE9007E521A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B3C829013FA600CEE98B /* Data */,
+				D9B16D892900AFFC007E521A /* TweetCounterInteractor.swift */,
+				D9B16D8B2900B037007E521A /* TweetCountingService.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D9B4B3C829013FA600CEE98B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B3C629013E8800CEE98B /* TweetCounterReprository.swift */,
+				D9B4B3C929013FB600CEE98B /* TweetPostMockService.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		D9BAF9C828FEBA7B00FBF798 = {
@@ -473,17 +504,22 @@
 			files = (
 				D9B16D822900A94D007E521A /* UIViewController.swift in Sources */,
 				D9B16D6929009043007E521A /* UIView.swift in Sources */,
+				D9B16D8E2900B141007E521A /* TweetCounterReprositoryContract.swift in Sources */,
+				D9B4B3CA29013FB600CEE98B /* TweetPostMockService.swift in Sources */,
 				D9B16D7829009B8D007E521A /* TweetCounterViewData.swift in Sources */,
 				D9B16D7429009AF6007E521A /* TweetCounterError.swift in Sources */,
 				D9B16D7A2900A0C5007E521A /* TweetCounterInteractorContract.swift in Sources */,
 				D9BAF9D928FEBA7B00FBF798 /* ViewController.swift in Sources */,
+				D9B16D8C2900B037007E521A /* TweetCountingService.swift in Sources */,
 				D9B16D7629009B54007E521A /* TweetCounterViewContract.swift in Sources */,
 				D9B16D802900A7AA007E521A /* TweetCounterPresenter.swift in Sources */,
 				D9B16D7C2900A11D007E521A /* TweetCountingResult.swift in Sources */,
+				D9B4B3C729013E8800CEE98B /* TweetCounterReprository.swift in Sources */,
 				D9BAF9D528FEBA7B00FBF798 /* AppDelegate.swift in Sources */,
 				D9B16D6429008847007E521A /* TweetCounterViewController.swift in Sources */,
 				D9BAF9D728FEBA7B00FBF798 /* SceneDelegate.swift in Sources */,
 				D9B16D7E2900A159007E521A /* TweetCounterRouterContract.swift in Sources */,
+				D9B16D8A2900AFFC007E521A /* TweetCounterInteractor.swift in Sources */,
 				D9B16D7129009A4E007E521A /* TweetCounterPresenterContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

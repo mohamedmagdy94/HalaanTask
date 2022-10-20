@@ -13,4 +13,5 @@ protocol TweetCounterViewContract{
     func showSuccess()
     func showLoading()
     func hideLoading()
+    func setDependencies(presenter: TweetCounterPresenterInputContract)
 }
