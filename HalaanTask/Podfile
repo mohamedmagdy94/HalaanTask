@@ -5,7 +5,10 @@ target 'HalaanTask' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for HalaanTask
+  # Pods for HalaanTask 
+  pod 'HalaanTaskEntity', :path => '../HalaanEntities'
+  pod 'HalaanTaskPresentation', :path => '../HalaanTaskPresentation'
+  pod 'HalaanTaskBussiness', :path => '../HalaanTaskBussiness'
 
   target 'HalaanTaskTests' do
     inherit! :search_paths

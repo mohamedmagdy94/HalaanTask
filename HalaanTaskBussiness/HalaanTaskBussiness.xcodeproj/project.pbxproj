@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55AAD80DD688E204869A2FFC /* Pods_HalaanTaskBussiness_HalaanTaskBussinessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8EE9458C240F9DCBBD6BFA /* Pods_HalaanTaskBussiness_HalaanTaskBussinessTests.framework */; };
+		D62AB2476CB00F7357A64603 /* Pods_HalaanTaskBussiness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7372919338F65E64FFAFC0FA /* Pods_HalaanTaskBussiness.framework */; };
+		D9AFCE432902B91C00BAF487 /* HalaanTaskBussiness.docc in Sources */ = {isa = PBXBuildFile; fileRef = D9AFCE422902B91C00BAF487 /* HalaanTaskBussiness.docc */; };
+		D9AFCE492902B91C00BAF487 /* HalaanTaskBussiness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AFCE3E2902B91C00BAF487 /* HalaanTaskBussiness.framework */; };
+		D9AFCE4E2902B91C00BAF487 /* HalaanTaskBussinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFCE4D2902B91C00BAF487 /* HalaanTaskBussinessTests.swift */; };
+		D9AFCE4F2902B91C00BAF487 /* HalaanTaskBussiness.h in Headers */ = {isa = PBXBuildFile; fileRef = D9AFCE412902B91C00BAF487 /* HalaanTaskBussiness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9AFCE682902C05100BAF487 /* TweetCountingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFCE632902C05100BAF487 /* TweetCountingService.swift */; };
+		D9AFCE692902C05100BAF487 /* TweetPostMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFCE652902C05100BAF487 /* TweetPostMockService.swift */; };
+		D9AFCE6A2902C05100BAF487 /* TweetCounterReprository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFCE662902C05100BAF487 /* TweetCounterReprository.swift */; };
+		D9AFCE6B2902C05100BAF487 /* TweetCounterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFCE672902C05100BAF487 /* TweetCounterInteractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9AFCE4A2902B91C00BAF487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9AFCE352902B91C00BAF487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9AFCE3D2902B91C00BAF487;
+			remoteInfo = HalaanTaskBussiness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D8EE9458C240F9DCBBD6BFA /* Pods_HalaanTaskBussiness_HalaanTaskBussinessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTaskBussiness_HalaanTaskBussinessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BED096FE685A446891C6A93 /* Pods-HalaanTaskBussiness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTaskBussiness.debug.xcconfig"; path = "Target Support Files/Pods-HalaanTaskBussiness/Pods-HalaanTaskBussiness.debug.xcconfig"; sourceTree = "<group>"; };
+		7372919338F65E64FFAFC0FA /* Pods_HalaanTaskBussiness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTaskBussiness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B711FBB2EE956DBBD85946B3 /* Pods-HalaanTaskBussiness-HalaanTaskBussinessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTaskBussiness-HalaanTaskBussinessTests.debug.xcconfig"; path = "Target Support Files/Pods-HalaanTaskBussiness-HalaanTaskBussinessTests/Pods-HalaanTaskBussiness-HalaanTaskBussinessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBA926A2EE209F4444C89691 /* Pods-HalaanTaskBussiness-HalaanTaskBussinessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTaskBussiness-HalaanTaskBussinessTests.release.xcconfig"; path = "Target Support Files/Pods-HalaanTaskBussiness-HalaanTaskBussinessTests/Pods-HalaanTaskBussiness-HalaanTaskBussinessTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9AFCE3E2902B91C00BAF487 /* HalaanTaskBussiness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HalaanTaskBussiness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AFCE412902B91C00BAF487 /* HalaanTaskBussiness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalaanTaskBussiness.h; sourceTree = "<group>"; };
+		D9AFCE422902B91C00BAF487 /* HalaanTaskBussiness.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HalaanTaskBussiness.docc; sourceTree = "<group>"; };
+		D9AFCE482902B91C00BAF487 /* HalaanTaskBussinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalaanTaskBussinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AFCE4D2902B91C00BAF487 /* HalaanTaskBussinessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaanTaskBussinessTests.swift; sourceTree = "<group>"; };
+		D9AFCE632902C05100BAF487 /* TweetCountingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCountingService.swift; sourceTree = "<group>"; };
+		D9AFCE652902C05100BAF487 /* TweetPostMockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetPostMockService.swift; sourceTree = "<group>"; };
+		D9AFCE662902C05100BAF487 /* TweetCounterReprository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterReprository.swift; sourceTree = "<group>"; };
+		D9AFCE672902C05100BAF487 /* TweetCounterInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterInteractor.swift; sourceTree = "<group>"; };
+		E54D92C800D53AE545EEE8D7 /* Pods-HalaanTaskBussiness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTaskBussiness.release.xcconfig"; path = "Target Support Files/Pods-HalaanTaskBussiness/Pods-HalaanTaskBussiness.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9AFCE3B2902B91C00BAF487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62AB2476CB00F7357A64603 /* Pods_HalaanTaskBussiness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AFCE452902B91C00BAF487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AFCE492902B91C00BAF487 /* HalaanTaskBussiness.framework in Frameworks */,
+				55AAD80DD688E204869A2FFC /* Pods_HalaanTaskBussiness_HalaanTaskBussinessTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356E56BE7A25CAF9F8489E29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7372919338F65E64FFAFC0FA /* Pods_HalaanTaskBussiness.framework */,
+				0D8EE9458C240F9DCBBD6BFA /* Pods_HalaanTaskBussiness_HalaanTaskBussinessTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9AFCE342902B91C00BAF487 = {
+			isa = PBXGroup;
+			children = (
+				D9AFCE402902B91C00BAF487 /* HalaanTaskBussiness */,
+				D9AFCE4C2902B91C00BAF487 /* HalaanTaskBussinessTests */,
+				D9AFCE3F2902B91C00BAF487 /* Products */,
+				F1DA2373778BFF61D20F9A3D /* Pods */,
+				356E56BE7A25CAF9F8489E29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9AFCE3F2902B91C00BAF487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9AFCE3E2902B91C00BAF487 /* HalaanTaskBussiness.framework */,
+				D9AFCE482902B91C00BAF487 /* HalaanTaskBussinessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9AFCE402902B91C00BAF487 /* HalaanTaskBussiness */ = {
+			isa = PBXGroup;
+			children = (
+				D9AFCE622902C05100BAF487 /* Interactor */,
+				D9AFCE412902B91C00BAF487 /* HalaanTaskBussiness.h */,
+				D9AFCE422902B91C00BAF487 /* HalaanTaskBussiness.docc */,
+			);
+			path = HalaanTaskBussiness;
+			sourceTree = "<group>";
+		};
+		D9AFCE4C2902B91C00BAF487 /* HalaanTaskBussinessTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9AFCE4D2902B91C00BAF487 /* HalaanTaskBussinessTests.swift */,
+			);
+			path = HalaanTaskBussinessTests;
+			sourceTree = "<group>";
+		};
+		D9AFCE622902C05100BAF487 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D9AFCE632902C05100BAF487 /* TweetCountingService.swift */,
+				D9AFCE642902C05100BAF487 /* Data */,
+				D9AFCE672902C05100BAF487 /* TweetCounterInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D9AFCE642902C05100BAF487 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D9AFCE652902C05100BAF487 /* TweetPostMockService.swift */,
+				D9AFCE662902C05100BAF487 /* TweetCounterReprository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F1DA2373778BFF61D20F9A3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BED096FE685A446891C6A93 /* Pods-HalaanTaskBussiness.debug.xcconfig */,
+				E54D92C800D53AE545EEE8D7 /* Pods-HalaanTaskBussiness.release.xcconfig */,
+				B711FBB2EE956DBBD85946B3 /* Pods-HalaanTaskBussiness-HalaanTaskBussinessTests.debug.xcconfig */,
+				BBA926A2EE209F4444C89691 /* Pods-HalaanTaskBussiness-HalaanTaskBussinessTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D9AFCE392902B91C00BAF487 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AFCE4F2902B91C00BAF487 /* HalaanTaskBussiness.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D9AFCE3D2902B91C00BAF487 /* HalaanTaskBussiness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AFCE522902B91C00BAF487 /* Build configuration list for PBXNativeTarget "HalaanTaskBussiness" */;
+			buildPhases = (
+				916014EDFD7F0FA76E204635 /* [CP] Check Pods Manifest.lock */,
+				D9AFCE392902B91C00BAF487 /* Headers */,
+				D9AFCE3A2902B91C00BAF487 /* Sources */,
+				D9AFCE3B2902B91C00BAF487 /* Frameworks */,
+				D9AFCE3C2902B91C00BAF487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HalaanTaskBussiness;
+			productName = HalaanTaskBussiness;
+			productReference = D9AFCE3E2902B91C00BAF487 /* HalaanTaskBussiness.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9AFCE472902B91C00BAF487 /* HalaanTaskBussinessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9AFCE552902B91C00BAF487 /* Build configuration list for PBXNativeTarget "HalaanTaskBussinessTests" */;
+			buildPhases = (
+				069F7782B4F5B0ADD8F1DD59 /* [CP] Check Pods Manifest.lock */,
+				D9AFCE442902B91C00BAF487 /* Sources */,
+				D9AFCE452902B91C00BAF487 /* Frameworks */,
+				D9AFCE462902B91C00BAF487 /* Resources */,
+				62E3869FE017E6DF7267D02E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9AFCE4B2902B91C00BAF487 /* PBXTargetDependency */,
+			);
+			name = HalaanTaskBussinessTests;
+			productName = HalaanTaskBussinessTests;
+			productReference = D9AFCE482902B91C00BAF487 /* HalaanTaskBussinessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9AFCE352902B91C00BAF487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D9AFCE3D2902B91C00BAF487 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D9AFCE472902B91C00BAF487 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D9AFCE382902B91C00BAF487 /* Build configuration list for PBXProject "HalaanTaskBussiness" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9AFCE342902B91C00BAF487;
+			productRefGroup = D9AFCE3F2902B91C00BAF487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9AFCE3D2902B91C00BAF487 /* HalaanTaskBussiness */,
+				D9AFCE472902B91C00BAF487 /* HalaanTaskBussinessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9AFCE3C2902B91C00BAF487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AFCE462902B91C00BAF487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		069F7782B4F5B0ADD8F1DD59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalaanTaskBussiness-HalaanTaskBussinessTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62E3869FE017E6DF7267D02E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HalaanTaskBussiness-HalaanTaskBussinessTests/Pods-HalaanTaskBussiness-HalaanTaskBussinessTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HalaanTaskBussiness-HalaanTaskBussinessTests/Pods-HalaanTaskBussiness-HalaanTaskBussinessTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HalaanTaskBussiness-HalaanTaskBussinessTests/Pods-HalaanTaskBussiness-HalaanTaskBussinessTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		916014EDFD7F0FA76E204635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalaanTaskBussiness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9AFCE3A2902B91C00BAF487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AFCE682902C05100BAF487 /* TweetCountingService.swift in Sources */,
+				D9AFCE432902B91C00BAF487 /* HalaanTaskBussiness.docc in Sources */,
+				D9AFCE692902C05100BAF487 /* TweetPostMockService.swift in Sources */,
+				D9AFCE6B2902C05100BAF487 /* TweetCounterInteractor.swift in Sources */,
+				D9AFCE6A2902C05100BAF487 /* TweetCounterReprository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9AFCE442902B91C00BAF487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AFCE4E2902B91C00BAF487 /* HalaanTaskBussinessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9AFCE4B2902B91C00BAF487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9AFCE3D2902B91C00BAF487 /* HalaanTaskBussiness */;
+			targetProxy = D9AFCE4A2902B91C00BAF487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9AFCE502902B91C00BAF487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9AFCE512902B91C00BAF487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9AFCE532902B91C00BAF487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BED096FE685A446891C6A93 /* Pods-HalaanTaskBussiness.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Halaan.HalaanTaskBussiness;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9AFCE542902B91C00BAF487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54D92C800D53AE545EEE8D7 /* Pods-HalaanTaskBussiness.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Halaan.HalaanTaskBussiness;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9AFCE562902B91C00BAF487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B711FBB2EE956DBBD85946B3 /* Pods-HalaanTaskBussiness-HalaanTaskBussinessTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Halaan.HalaanTaskBussinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9AFCE572902B91C00BAF487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA926A2EE209F4444C89691 /* Pods-HalaanTaskBussiness-HalaanTaskBussinessTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Halaan.HalaanTaskBussinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9AFCE382902B91C00BAF487 /* Build configuration list for PBXProject "HalaanTaskBussiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AFCE502902B91C00BAF487 /* Debug */,
+				D9AFCE512902B91C00BAF487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AFCE522902B91C00BAF487 /* Build configuration list for PBXNativeTarget "HalaanTaskBussiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AFCE532902B91C00BAF487 /* Debug */,
+				D9AFCE542902B91C00BAF487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AFCE552902B91C00BAF487 /* Build configuration list for PBXNativeTarget "HalaanTaskBussinessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AFCE562902B91C00BAF487 /* Debug */,
+				D9AFCE572902B91C00BAF487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9AFCE352902B91C00BAF487 /* Project object */;
+}

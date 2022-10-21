@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0F3F773853CB57FACBBBF7B2 /* Pods_HalaanTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE16DE186A9CFB9C9C67615 /* Pods_HalaanTaskTests.framework */; };
+		D9B4B3CF2901411F00CEE98B /* TweetCounterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B3CE2901411F00CEE98B /* TweetCounterRouter.swift */; };
+		D9B4B3D2290153F100CEE98B /* TweetCounterConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B3D1290153F100CEE98B /* TweetCounterConfigurator.swift */; };
 		D9BAF9D528FEBA7B00FBF798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D428FEBA7B00FBF798 /* AppDelegate.swift */; };
 		D9BAF9D728FEBA7B00FBF798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D628FEBA7B00FBF798 /* SceneDelegate.swift */; };
 		D9BAF9D928FEBA7B00FBF798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D828FEBA7B00FBF798 /* ViewController.swift */; };
@@ -47,6 +49,8 @@
 		AFE16DE186A9CFB9C9C67615 /* Pods_HalaanTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A358FC4421A6EB337E1664 /* Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-HalaanTask-HalaanTaskUITests/Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D64B74F9D7B7A9DA80A0B101 /* Pods_HalaanTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B4B3CE2901411F00CEE98B /* TweetCounterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCounterRouter.swift; sourceTree = "<group>"; };
+		D9B4B3D1290153F100CEE98B /* TweetCounterConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCounterConfigurator.swift; sourceTree = "<group>"; };
 		D9BAF9D128FEBA7B00FBF798 /* HalaanTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalaanTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BAF9D428FEBA7B00FBF798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9BAF9D628FEBA7B00FBF798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D9B16D5F29008816007E521A /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				D9B16D6029008823007E521A /* TweetCounter */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		D9B16D6029008823007E521A /* TweetCounter */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B3D0290153E300CEE98B /* DI */,
+				D9B4B3CD2901410E00CEE98B /* Router */,
+			);
+			path = TweetCounter;
+			sourceTree = "<group>";
+		};
+		D9B4B3CD2901410E00CEE98B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B3CE2901411F00CEE98B /* TweetCounterRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D9B4B3D0290153E300CEE98B /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B3D1290153F100CEE98B /* TweetCounterConfigurator.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
 		D9BAF9C828FEBA7B00FBF798 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +163,7 @@
 		D9BAF9D328FEBA7B00FBF798 /* HalaanTask */ = {
 			isa = PBXGroup;
 			children = (
+				D9B16D5F29008816007E521A /* feature */,
 				D9BAF9D428FEBA7B00FBF798 /* AppDelegate.swift */,
 				D9BAF9D628FEBA7B00FBF798 /* SceneDelegate.swift */,
 				D9BAF9D828FEBA7B00FBF798 /* ViewController.swift */,
@@ -164,7 +202,6 @@
 				5EE21D3195E72ED2ADBD92E1 /* Pods-HalaanTaskTests.debug.xcconfig */,
 				99ABA78200E3E105E655981B /* Pods-HalaanTaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,6 +216,7 @@
 				D9BAF9CD28FEBA7B00FBF798 /* Sources */,
 				D9BAF9CE28FEBA7B00FBF798 /* Frameworks */,
 				D9BAF9CF28FEBA7B00FBF798 /* Resources */,
+				D74485A697B852EB31DEA8C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +254,7 @@
 				D9BAF9ED28FEBA7D00FBF798 /* Sources */,
 				D9BAF9EE28FEBA7D00FBF798 /* Frameworks */,
 				D9BAF9EF28FEBA7D00FBF798 /* Resources */,
+				2AAFDE252ABE7A0A9FE368BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -342,6 +381,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2AAFDE252ABE7A0A9FE368BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HalaanTask-HalaanTaskUITests/Pods-HalaanTask-HalaanTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HalaanTask-HalaanTaskUITests/Pods-HalaanTask-HalaanTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HalaanTask-HalaanTaskUITests/Pods-HalaanTask-HalaanTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C51CD5BD2B556F7D19DA5B46 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,6 +420,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D74485A697B852EB31DEA8C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HalaanTask/Pods-HalaanTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HalaanTask/Pods-HalaanTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HalaanTask/Pods-HalaanTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -372,7 +445,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9BAF9D928FEBA7B00FBF798 /* ViewController.swift in Sources */,
+				D9B4B3CF2901411F00CEE98B /* TweetCounterRouter.swift in Sources */,
 				D9BAF9D528FEBA7B00FBF798 /* AppDelegate.swift in Sources */,
+				D9B4B3D2290153F100CEE98B /* TweetCounterConfigurator.swift in Sources */,
 				D9BAF9D728FEBA7B00FBF798 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
