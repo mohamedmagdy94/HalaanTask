@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0F3F773853CB57FACBBBF7B2 /* Pods_HalaanTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE16DE186A9CFB9C9C67615 /* Pods_HalaanTaskTests.framework */; };
+		D9AFCE6F2902C9A500BAF487 /* HalaanTaskInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFCE6E2902C9A500BAF487 /* HalaanTaskInteractor.swift */; };
+		D9AFCE712902CAB800BAF487 /* HalaanTaskCountingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AFCE702902CAB800BAF487 /* HalaanTaskCountingUITests.swift */; };
 		D9B4B3CF2901411F00CEE98B /* TweetCounterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B3CE2901411F00CEE98B /* TweetCounterRouter.swift */; };
 		D9B4B3D2290153F100CEE98B /* TweetCounterConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B3D1290153F100CEE98B /* TweetCounterConfigurator.swift */; };
 		D9BAF9D528FEBA7B00FBF798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9D428FEBA7B00FBF798 /* AppDelegate.swift */; };
@@ -16,9 +18,6 @@
 		D9BAF9DC28FEBA7B00FBF798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BAF9DA28FEBA7B00FBF798 /* Main.storyboard */; };
 		D9BAF9DE28FEBA7D00FBF798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BAF9DD28FEBA7D00FBF798 /* Assets.xcassets */; };
 		D9BAF9E128FEBA7D00FBF798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BAF9DF28FEBA7D00FBF798 /* LaunchScreen.storyboard */; };
-		D9BAF9EC28FEBA7D00FBF798 /* HalaanTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9EB28FEBA7D00FBF798 /* HalaanTaskTests.swift */; };
-		D9BAF9F628FEBA7D00FBF798 /* HalaanTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9F528FEBA7D00FBF798 /* HalaanTaskUITests.swift */; };
-		D9BAF9F828FEBA7D00FBF798 /* HalaanTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAF9F728FEBA7D00FBF798 /* HalaanTaskUITestsLaunchTests.swift */; };
 		E2D1434061BAFC5EF24BEE44 /* Pods_HalaanTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64B74F9D7B7A9DA80A0B101 /* Pods_HalaanTask.framework */; };
 		FB91C94AB28A5E40922E2039 /* Pods_HalaanTask_HalaanTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8ABD561528B0929E005CD5 /* Pods_HalaanTask_HalaanTaskUITests.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +48,8 @@
 		AFE16DE186A9CFB9C9C67615 /* Pods_HalaanTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A358FC4421A6EB337E1664 /* Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-HalaanTask-HalaanTaskUITests/Pods-HalaanTask-HalaanTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D64B74F9D7B7A9DA80A0B101 /* Pods_HalaanTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AFCE6E2902C9A500BAF487 /* HalaanTaskInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaanTaskInteractor.swift; sourceTree = "<group>"; };
+		D9AFCE702902CAB800BAF487 /* HalaanTaskCountingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaanTaskCountingUITests.swift; sourceTree = "<group>"; };
 		D9B4B3CE2901411F00CEE98B /* TweetCounterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCounterRouter.swift; sourceTree = "<group>"; };
 		D9B4B3D1290153F100CEE98B /* TweetCounterConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCounterConfigurator.swift; sourceTree = "<group>"; };
 		D9BAF9D128FEBA7B00FBF798 /* HalaanTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalaanTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,10 +61,7 @@
 		D9BAF9E028FEBA7D00FBF798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9BAF9E228FEBA7D00FBF798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9BAF9E728FEBA7D00FBF798 /* HalaanTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalaanTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9BAF9EB28FEBA7D00FBF798 /* HalaanTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaanTaskTests.swift; sourceTree = "<group>"; };
 		D9BAF9F128FEBA7D00FBF798 /* HalaanTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalaanTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9BAF9F528FEBA7D00FBF798 /* HalaanTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaanTaskUITests.swift; sourceTree = "<group>"; };
-		D9BAF9F728FEBA7D00FBF798 /* HalaanTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaanTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EAC5F1717439463459D735CD /* Pods-HalaanTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanTask.release.xcconfig"; path = "Target Support Files/Pods-HalaanTask/Pods-HalaanTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,7 +176,7 @@
 		D9BAF9EA28FEBA7D00FBF798 /* HalaanTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				D9BAF9EB28FEBA7D00FBF798 /* HalaanTaskTests.swift */,
+				D9AFCE6E2902C9A500BAF487 /* HalaanTaskInteractor.swift */,
 			);
 			path = HalaanTaskTests;
 			sourceTree = "<group>";
@@ -186,8 +184,7 @@
 		D9BAF9F428FEBA7D00FBF798 /* HalaanTaskUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D9BAF9F528FEBA7D00FBF798 /* HalaanTaskUITests.swift */,
-				D9BAF9F728FEBA7D00FBF798 /* HalaanTaskUITestsLaunchTests.swift */,
+				D9AFCE702902CAB800BAF487 /* HalaanTaskCountingUITests.swift */,
 			);
 			path = HalaanTaskUITests;
 			sourceTree = "<group>";
@@ -235,6 +232,7 @@
 				D9BAF9E328FEBA7D00FBF798 /* Sources */,
 				D9BAF9E428FEBA7D00FBF798 /* Frameworks */,
 				D9BAF9E528FEBA7D00FBF798 /* Resources */,
+				24A359646A58EECDBCA0988F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -381,6 +379,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		24A359646A58EECDBCA0988F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HalaanTaskTests/Pods-HalaanTaskTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HalaanTaskTests/Pods-HalaanTaskTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HalaanTaskTests/Pods-HalaanTaskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2AAFDE252ABE7A0A9FE368BD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,7 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9BAF9EC28FEBA7D00FBF798 /* HalaanTaskTests.swift in Sources */,
+				D9AFCE6F2902C9A500BAF487 /* HalaanTaskInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,8 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9BAF9F828FEBA7D00FBF798 /* HalaanTaskUITestsLaunchTests.swift in Sources */,
-				D9BAF9F628FEBA7D00FBF798 /* HalaanTaskUITests.swift in Sources */,
+				D9AFCE712902CAB800BAF487 /* HalaanTaskCountingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
