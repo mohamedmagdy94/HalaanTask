@@ -1,0 +1,16 @@
+PODS:
+  - HalaanTaskEntity (0.1.0)
+
+DEPENDENCIES:
+  - HalaanTaskEntity (from `../HalaanEntities`)
+
+EXTERNAL SOURCES:
+  HalaanTaskEntity:
+    :path: "../HalaanEntities"
+
+SPEC CHECKSUMS:
+  HalaanTaskEntity: b48025e11a141647206e1e4b53f9810cfad87303
+
+PODFILE CHECKSUM: c438893c6806b75c6d12efda787674bf642d4122
+
+COCOAPODS: 1.11.3

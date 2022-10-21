@@ -1,0 +1,6 @@
+framework module Pods_HalaanEntities_HalaanEntitiesTests {
+  umbrella header "Pods-HalaanEntities-HalaanEntitiesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

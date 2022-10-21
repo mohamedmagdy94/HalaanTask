@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A782CBADCA69BAFD9848C1C /* Pods_HalaanEntities_HalaanEntitiesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A45B676E61469FCB0B44F5 /* Pods_HalaanEntities_HalaanEntitiesTests.framework */; };
+		D56EF0557995C87DCF6EFFFA /* Pods_HalaanEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C373306D4F03CC9F6EB6D64 /* Pods_HalaanEntities.framework */; };
+		D9B4B519290186DB00CEE98B /* HalaanEntities.docc in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B518290186DB00CEE98B /* HalaanEntities.docc */; };
+		D9B4B51F290186DB00CEE98B /* HalaanEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4B514290186DB00CEE98B /* HalaanEntities.framework */; };
+		D9B4B524290186DB00CEE98B /* HalaanEntitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B523290186DB00CEE98B /* HalaanEntitiesTests.swift */; };
+		D9B4B525290186DB00CEE98B /* HalaanEntities.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B4B517290186DB00CEE98B /* HalaanEntities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B4B539290186F500CEE98B /* TweetCounterConfiguratorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B52F290186F400CEE98B /* TweetCounterConfiguratorContract.swift */; };
+		D9B4B53A290186F500CEE98B /* TweetCounterInteractorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B530290186F400CEE98B /* TweetCounterInteractorContract.swift */; };
+		D9B4B53B290186F500CEE98B /* TweetCounterRouterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B531290186F400CEE98B /* TweetCounterRouterContract.swift */; };
+		D9B4B53C290186F500CEE98B /* TweetCounterReprositoryContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B532290186F400CEE98B /* TweetCounterReprositoryContract.swift */; };
+		D9B4B53D290186F500CEE98B /* TweetCounterViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B533290186F500CEE98B /* TweetCounterViewContract.swift */; };
+		D9B4B53E290186F500CEE98B /* TweetCounterPresenterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B534290186F500CEE98B /* TweetCounterPresenterContract.swift */; };
+		D9B4B53F290186F500CEE98B /* TweetCounterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B536290186F500CEE98B /* TweetCounterError.swift */; };
+		D9B4B540290186F500CEE98B /* TweetCounterViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B537290186F500CEE98B /* TweetCounterViewData.swift */; };
+		D9B4B541290186F500CEE98B /* TweetCountingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4B538290186F500CEE98B /* TweetCountingResult.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9B4B520290186DB00CEE98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9B4B50B290186DB00CEE98B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9B4B513290186DB00CEE98B;
+			remoteInfo = HalaanEntities;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A45B676E61469FCB0B44F5 /* Pods_HalaanEntities_HalaanEntitiesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanEntities_HalaanEntitiesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		136FDD9434A9C748621F6A06 /* Pods-HalaanEntities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanEntities.release.xcconfig"; path = "Target Support Files/Pods-HalaanEntities/Pods-HalaanEntities.release.xcconfig"; sourceTree = "<group>"; };
+		26A43862354F18A426E1F1B0 /* Pods-HalaanEntities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanEntities.debug.xcconfig"; path = "Target Support Files/Pods-HalaanEntities/Pods-HalaanEntities.debug.xcconfig"; sourceTree = "<group>"; };
+		3C373306D4F03CC9F6EB6D64 /* Pods_HalaanEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalaanEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675A3785543F8B353F743089 /* Pods-HalaanEntities-HalaanEntitiesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanEntities-HalaanEntitiesTests.debug.xcconfig"; path = "Target Support Files/Pods-HalaanEntities-HalaanEntitiesTests/Pods-HalaanEntities-HalaanEntitiesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A9BE2435F91FFC9E5E204EB /* Pods-HalaanEntities-HalaanEntitiesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalaanEntities-HalaanEntitiesTests.release.xcconfig"; path = "Target Support Files/Pods-HalaanEntities-HalaanEntitiesTests/Pods-HalaanEntities-HalaanEntitiesTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9B4B514290186DB00CEE98B /* HalaanEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HalaanEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B4B517290186DB00CEE98B /* HalaanEntities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalaanEntities.h; sourceTree = "<group>"; };
+		D9B4B518290186DB00CEE98B /* HalaanEntities.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HalaanEntities.docc; sourceTree = "<group>"; };
+		D9B4B51E290186DB00CEE98B /* HalaanEntitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalaanEntitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B4B523290186DB00CEE98B /* HalaanEntitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaanEntitiesTests.swift; sourceTree = "<group>"; };
+		D9B4B52F290186F400CEE98B /* TweetCounterConfiguratorContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterConfiguratorContract.swift; sourceTree = "<group>"; };
+		D9B4B530290186F400CEE98B /* TweetCounterInteractorContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterInteractorContract.swift; sourceTree = "<group>"; };
+		D9B4B531290186F400CEE98B /* TweetCounterRouterContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterRouterContract.swift; sourceTree = "<group>"; };
+		D9B4B532290186F400CEE98B /* TweetCounterReprositoryContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterReprositoryContract.swift; sourceTree = "<group>"; };
+		D9B4B533290186F500CEE98B /* TweetCounterViewContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterViewContract.swift; sourceTree = "<group>"; };
+		D9B4B534290186F500CEE98B /* TweetCounterPresenterContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterPresenterContract.swift; sourceTree = "<group>"; };
+		D9B4B536290186F500CEE98B /* TweetCounterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterError.swift; sourceTree = "<group>"; };
+		D9B4B537290186F500CEE98B /* TweetCounterViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCounterViewData.swift; sourceTree = "<group>"; };
+		D9B4B538290186F500CEE98B /* TweetCountingResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCountingResult.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9B4B511290186DB00CEE98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56EF0557995C87DCF6EFFFA /* Pods_HalaanEntities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B4B51B290186DB00CEE98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B4B51F290186DB00CEE98B /* HalaanEntities.framework in Frameworks */,
+				9A782CBADCA69BAFD9848C1C /* Pods_HalaanEntities_HalaanEntitiesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1A3D6E7DC2762BBF1479F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C373306D4F03CC9F6EB6D64 /* Pods_HalaanEntities.framework */,
+				03A45B676E61469FCB0B44F5 /* Pods_HalaanEntities_HalaanEntitiesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62A493E10CAAEAD0FA6905A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26A43862354F18A426E1F1B0 /* Pods-HalaanEntities.debug.xcconfig */,
+				136FDD9434A9C748621F6A06 /* Pods-HalaanEntities.release.xcconfig */,
+				675A3785543F8B353F743089 /* Pods-HalaanEntities-HalaanEntitiesTests.debug.xcconfig */,
+				6A9BE2435F91FFC9E5E204EB /* Pods-HalaanEntities-HalaanEntitiesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9B4B50A290186DB00CEE98B = {
+			isa = PBXGroup;
+			children = (
+				D9B4B516290186DB00CEE98B /* HalaanEntities */,
+				D9B4B522290186DB00CEE98B /* HalaanEntitiesTests */,
+				D9B4B515290186DB00CEE98B /* Products */,
+				C62A493E10CAAEAD0FA6905A /* Pods */,
+				BE1A3D6E7DC2762BBF1479F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9B4B515290186DB00CEE98B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B514290186DB00CEE98B /* HalaanEntities.framework */,
+				D9B4B51E290186DB00CEE98B /* HalaanEntitiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9B4B516290186DB00CEE98B /* HalaanEntities */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B52E290186F400CEE98B /* Contract */,
+				D9B4B535290186F500CEE98B /* Entity */,
+				D9B4B517290186DB00CEE98B /* HalaanEntities.h */,
+				D9B4B518290186DB00CEE98B /* HalaanEntities.docc */,
+			);
+			path = HalaanEntities;
+			sourceTree = "<group>";
+		};
+		D9B4B522290186DB00CEE98B /* HalaanEntitiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B523290186DB00CEE98B /* HalaanEntitiesTests.swift */,
+			);
+			path = HalaanEntitiesTests;
+			sourceTree = "<group>";
+		};
+		D9B4B52E290186F400CEE98B /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B52F290186F400CEE98B /* TweetCounterConfiguratorContract.swift */,
+				D9B4B530290186F400CEE98B /* TweetCounterInteractorContract.swift */,
+				D9B4B531290186F400CEE98B /* TweetCounterRouterContract.swift */,
+				D9B4B532290186F400CEE98B /* TweetCounterReprositoryContract.swift */,
+				D9B4B533290186F500CEE98B /* TweetCounterViewContract.swift */,
+				D9B4B534290186F500CEE98B /* TweetCounterPresenterContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		D9B4B535290186F500CEE98B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4B536290186F500CEE98B /* TweetCounterError.swift */,
+				D9B4B537290186F500CEE98B /* TweetCounterViewData.swift */,
+				D9B4B538290186F500CEE98B /* TweetCountingResult.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D9B4B50F290186DB00CEE98B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B4B525290186DB00CEE98B /* HalaanEntities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D9B4B513290186DB00CEE98B /* HalaanEntities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B4B528290186DB00CEE98B /* Build configuration list for PBXNativeTarget "HalaanEntities" */;
+			buildPhases = (
+				17A194846FB3D6077FDE85EA /* [CP] Check Pods Manifest.lock */,
+				D9B4B50F290186DB00CEE98B /* Headers */,
+				D9B4B510290186DB00CEE98B /* Sources */,
+				D9B4B511290186DB00CEE98B /* Frameworks */,
+				D9B4B512290186DB00CEE98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HalaanEntities;
+			productName = HalaanEntities;
+			productReference = D9B4B514290186DB00CEE98B /* HalaanEntities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9B4B51D290186DB00CEE98B /* HalaanEntitiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B4B52B290186DB00CEE98B /* Build configuration list for PBXNativeTarget "HalaanEntitiesTests" */;
+			buildPhases = (
+				79C287AC54FE491F747F6832 /* [CP] Check Pods Manifest.lock */,
+				D9B4B51A290186DB00CEE98B /* Sources */,
+				D9B4B51B290186DB00CEE98B /* Frameworks */,
+				D9B4B51C290186DB00CEE98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9B4B521290186DB00CEE98B /* PBXTargetDependency */,
+			);
+			name = HalaanEntitiesTests;
+			productName = HalaanEntitiesTests;
+			productReference = D9B4B51E290186DB00CEE98B /* HalaanEntitiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9B4B50B290186DB00CEE98B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D9B4B513290186DB00CEE98B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D9B4B51D290186DB00CEE98B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D9B4B50E290186DB00CEE98B /* Build configuration list for PBXProject "HalaanEntities" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9B4B50A290186DB00CEE98B;
+			productRefGroup = D9B4B515290186DB00CEE98B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9B4B513290186DB00CEE98B /* HalaanEntities */,
+				D9B4B51D290186DB00CEE98B /* HalaanEntitiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9B4B512290186DB00CEE98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B4B51C290186DB00CEE98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17A194846FB3D6077FDE85EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalaanEntities-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C287AC54FE491F747F6832 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalaanEntities-HalaanEntitiesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9B4B510290186DB00CEE98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B4B53E290186F500CEE98B /* TweetCounterPresenterContract.swift in Sources */,
+				D9B4B540290186F500CEE98B /* TweetCounterViewData.swift in Sources */,
+				D9B4B519290186DB00CEE98B /* HalaanEntities.docc in Sources */,
+				D9B4B53A290186F500CEE98B /* TweetCounterInteractorContract.swift in Sources */,
+				D9B4B53B290186F500CEE98B /* TweetCounterRouterContract.swift in Sources */,
+				D9B4B539290186F500CEE98B /* TweetCounterConfiguratorContract.swift in Sources */,
+				D9B4B53F290186F500CEE98B /* TweetCounterError.swift in Sources */,
+				D9B4B53C290186F500CEE98B /* TweetCounterReprositoryContract.swift in Sources */,
+				D9B4B53D290186F500CEE98B /* TweetCounterViewContract.swift in Sources */,
+				D9B4B541290186F500CEE98B /* TweetCountingResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B4B51A290186DB00CEE98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B4B524290186DB00CEE98B /* HalaanEntitiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9B4B521290186DB00CEE98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9B4B513290186DB00CEE98B /* HalaanEntities */;
+			targetProxy = D9B4B520290186DB00CEE98B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9B4B526290186DB00CEE98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9B4B527290186DB00CEE98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9B4B529290186DB00CEE98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A43862354F18A426E1F1B0 /* Pods-HalaanEntities.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Halaan.HalaanEntities;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9B4B52A290186DB00CEE98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 136FDD9434A9C748621F6A06 /* Pods-HalaanEntities.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Halaan.HalaanEntities;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9B4B52C290186DB00CEE98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675A3785543F8B353F743089 /* Pods-HalaanEntities-HalaanEntitiesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Halaan.HalaanEntitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9B4B52D290186DB00CEE98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9BE2435F91FFC9E5E204EB /* Pods-HalaanEntities-HalaanEntitiesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Halaan.HalaanEntitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9B4B50E290186DB00CEE98B /* Build configuration list for PBXProject "HalaanEntities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B4B526290186DB00CEE98B /* Debug */,
+				D9B4B527290186DB00CEE98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B4B528290186DB00CEE98B /* Build configuration list for PBXNativeTarget "HalaanEntities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B4B529290186DB00CEE98B /* Debug */,
+				D9B4B52A290186DB00CEE98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B4B52B290186DB00CEE98B /* Build configuration list for PBXNativeTarget "HalaanEntitiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B4B52C290186DB00CEE98B /* Debug */,
+				D9B4B52D290186DB00CEE98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9B4B50B290186DB00CEE98B /* Project object */;
+}
