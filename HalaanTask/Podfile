@@ -7,21 +7,21 @@ target 'HalaanTask' do
 
   # Pods for HalaanTask 
   pod 'HalaanTaskEntity', :path => '../HalaanEntities'
-  pod 'HalaanTaskPresentation', :path => '../HalaanTaskPresentation'
+  pod 'HalaanTaskPresentation', :path => '../HalaanPresentation'
   pod 'HalaanTaskBussiness', :path => '../HalaanTaskBussiness'
 
   target 'HalaanTaskTests' do
     inherit! :search_paths
     # Pods for testing
   pod 'HalaanTaskEntity', :path => '../HalaanEntities'
-  pod 'HalaanTaskPresentation', :path => '../HalaanTaskPresentation'
+  pod 'HalaanTaskPresentation', :path => '../HalaanPresentation'
   pod 'HalaanTaskBussiness', :path => '../HalaanTaskBussiness'
   end
 
   target 'HalaanTaskUITests' do
     # Pods for testing
   pod 'HalaanTaskEntity', :path => '../HalaanEntities'
-  pod 'HalaanTaskPresentation', :path => '../HalaanTaskPresentation'
+  pod 'HalaanTaskPresentation', :path => '../HalaanPresentation'
   pod 'HalaanTaskBussiness', :path => '../HalaanTaskBussiness'
   end
 
