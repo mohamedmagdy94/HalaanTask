@@ -1,0 +1,6 @@
+framework module Pods_HalaanTaskTests {
+  umbrella header "Pods-HalaanTaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

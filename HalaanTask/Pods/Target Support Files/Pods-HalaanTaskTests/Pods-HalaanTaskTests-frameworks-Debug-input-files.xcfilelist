@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-HalaanTaskTests/Pods-HalaanTaskTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/HalaanTaskBussiness/HalaanTaskBussiness.framework
+${BUILT_PRODUCTS_DIR}/HalaanTaskEntity/HalaanTaskEntity.framework
+${BUILT_PRODUCTS_DIR}/HalaanTaskPresentation/HalaanTaskPresentation.framework

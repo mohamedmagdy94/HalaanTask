@@ -1,0 +1,6 @@
+framework module HalaanTaskBussiness {
+  umbrella header "HalaanTaskBussiness-umbrella.h"
+
+  export *
+  module * { export * }
+}

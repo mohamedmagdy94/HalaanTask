@@ -1,0 +1,38 @@
+{
+  "name": "HalaanTaskPresentation",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "summary": "Halal Task Presenter and View",
+  "requires_arc": true,
+  "version": "0.1.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mohamed Eltaweel": "mohamedmagdy.9080@gmail.com"
+  },
+  "homepage": "https://github.com/mohamedmagdy94/HalaanTask",
+  "source": {
+    "git": "local only",
+    "tag": "0.1.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "HalaanTaskEntity": [
+
+    ]
+  },
+  "source_files": [
+    "HalaanTaskPR/**/*.{swift,h,m,xib,storyboard}",
+    "HalaanTaskPR/Resources/*"
+  ],
+  "resource_bundles": {
+    "MyFramework": [
+      "Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}"
+    ]
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

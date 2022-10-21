@@ -1,0 +1,30 @@
+{
+  "name": "HalaanTaskBussiness",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "summary": "Halal Task Interactor and Repo",
+  "requires_arc": true,
+  "version": "0.1.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mohamed Eltaweel": "mohamedmagdy.9080@gmail.com"
+  },
+  "homepage": "https://github.com/mohamedmagdy94/HalaanTask",
+  "source": {
+    "git": "local only",
+    "tag": "0.1.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "HalaanTaskEntity": [
+
+    ]
+  },
+  "source_files": "HalaanTaskBussiness/**/*.{swift}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

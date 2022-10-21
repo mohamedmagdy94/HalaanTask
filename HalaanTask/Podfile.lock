@@ -1,0 +1,28 @@
+PODS:
+  - HalaanTaskBussiness (0.1.0):
+    - HalaanTaskEntity
+  - HalaanTaskEntity (0.1.0)
+  - HalaanTaskPresentation (0.1.0):
+    - HalaanTaskEntity
+
+DEPENDENCIES:
+  - HalaanTaskBussiness (from `../HalaanTaskBussiness`)
+  - HalaanTaskEntity (from `../HalaanEntities`)
+  - HalaanTaskPresentation (from `../HalaanPresentation`)
+
+EXTERNAL SOURCES:
+  HalaanTaskBussiness:
+    :path: "../HalaanTaskBussiness"
+  HalaanTaskEntity:
+    :path: "../HalaanEntities"
+  HalaanTaskPresentation:
+    :path: "../HalaanPresentation"
+
+SPEC CHECKSUMS:
+  HalaanTaskBussiness: 9ce015a94a306e987acec38f9285f87efcc8bf56
+  HalaanTaskEntity: b48025e11a141647206e1e4b53f9810cfad87303
+  HalaanTaskPresentation: 1ce833f6cc28e086591d1d1b1f26913bc599dd12
+
+PODFILE CHECKSUM: 628494815bf1b4ce90f4be6ea2a2fd969da3931e
+
+COCOAPODS: 1.11.3

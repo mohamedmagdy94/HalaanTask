@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HalaanTaskBussiness.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HalaanTaskEntity.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HalaanTaskPresentation.framework

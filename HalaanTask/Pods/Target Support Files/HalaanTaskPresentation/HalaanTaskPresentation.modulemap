@@ -1,0 +1,6 @@
+framework module HalaanTaskPresentation {
+  umbrella header "HalaanTaskPresentation-umbrella.h"
+
+  export *
+  module * { export * }
+}

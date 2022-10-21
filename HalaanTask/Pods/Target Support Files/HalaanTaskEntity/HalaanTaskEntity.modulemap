@@ -1,0 +1,6 @@
+framework module HalaanTaskEntity {
+  umbrella header "HalaanTaskEntity-umbrella.h"
+
+  export *
+  module * { export * }
+}
